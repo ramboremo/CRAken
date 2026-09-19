@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Tool Caches & Artifacts
+.tools/
+.crascanner_cache/
+output/
+output_*/
+*.db
+*.sqlite
+.crascanner_catalog.json
+create_demo_project.py
+demo_project/
+tests/fixtures/sample_app/*.dll
+tests/fixtures/vulnerable_app/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crascanner"
+version = "0.1.0"
+description = "EU Cyber Resilience Act (CRA) Compliance Scanner & SBOM Generator"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "CRA Scanner Contributors" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.28.0",
+    "pefile>=2023.2.7",
+    "packageurl-python>=0.11.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+crascanner = "crascanner.cli:main"
+craken = "crascanner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["crascanner*"]
