@@ -7,7 +7,7 @@
 [![Standard](https://img.shields.io/badge/CRA-EU_2024%2F2847-green.svg)](https://eur-lex.europa.eu/eli/reg/2024/2847/oj)
 [![Integrity](https://img.shields.io/badge/Integrity-BSI_TR--03183--2-success.svg)](https://www.bsi.bund.de/)
 
-**CRAken** is a production-grade, open-source compliance engine and SBOM generator designed to meet the rigorous requirements of the **EU Cyber Resilience Act (CRA)**.
+**CRAken** is a production-grade(maybe), open-source compliance engine and SBOM generator designed to meet the rigorous requirements of the **EU Cyber Resilience Act (CRA)**.
 
 It automates end-to-end component discovery, cryptographic integrity fingerprinting, a 4-layer identification funnel (NSRL, Authenticode signatures, Syft, and ClearlyDefined), multi-source threat intelligence aggregation (OSV, NVD, CISA KEV, ENISA EUVD, JVN), precision VEX false-positive filtering, official **CycloneDX 1.6 SBOM** generation (`bom.cdx.json`), and **AI-powered vulnerability validation** with deterministic **Root Package Attribution**.
 
